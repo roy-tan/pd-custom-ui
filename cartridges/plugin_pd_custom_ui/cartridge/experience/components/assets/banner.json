@@ -1,0 +1,46 @@
+{
+  "name": "Banner",
+  "description": "Banner with Magic Unicorns",
+  "group": "assets",
+  "attribute_definition_groups": [
+    {
+      "id": "background",
+      "name": "Background",
+      "description": "The visual display of the banner image in the background.",
+      "attribute_definitions": [
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "image",
+          "required": true
+        },
+        {
+          "id": "magic",
+          "name": "Magic Unicorns",
+          "type": "custom",
+          "required": true,
+          "editor_definition": {
+            "type": "magical",
+            "configuration": {
+              "options": {
+                "config": [
+                  "Auris",
+                  "Chant",
+                  "Elmas",
+                  "Majesty",
+                  "Moriba",
+                  "Mystery",
+                  "Mystic",
+                  "Snowflake",
+                  "Solstice",
+                  "Sunshine"
+                ]
+              }
+            }
+          }
+        }        
+      ]
+    }
+  ],
+  "region_definitions": []
+}
