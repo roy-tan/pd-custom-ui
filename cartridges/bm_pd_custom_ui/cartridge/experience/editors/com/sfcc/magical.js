@@ -27,7 +27,7 @@ module.exports.init = function (editor) {
     group3: 'Unicorns from OCAPI request'
   };
   editor.configuration.put('localization', Object.keys(localization).reduce(function (acc, key) {
-    acc.put(key, Resource.msg(key, 'experience.editors.magical', localization[key]));
+    acc.put(key, Resource.msg(key, 'experience.editors.com.sfcc.magical', localization[key]));
     return acc;
   }, new HashMap()));
  
